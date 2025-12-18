@@ -6,6 +6,11 @@ This project demonstrates backend fundamentals such as authentication, file uplo
 
 ---
 
+## 🚀 Live API URL
+https://job-application-portal-rxyr.onrender.com
+
+---
+
 ## 🚀 Features
 
 - User Registration & Login with JWT Authentication

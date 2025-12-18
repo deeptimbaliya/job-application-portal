@@ -21,9 +21,9 @@
           "raw": "{\n  \"email\": \"test@gmail.com\",\n  \"password\": \"Test@1234\"\n}"
         },
         "url": {
-          "raw": "{{base_url}}/api/auth/register",
+          "raw": "https://job-application-portal-rxyr.onrender.com/api/auth/register",
           "host": [
-            "{{base_url}}"
+            "https://job-application-portal-rxyr.onrender.com"
           ],
           "path": [
             "api",
@@ -48,9 +48,9 @@
           "raw": "{\n  \"email\": \"test@gmail.com\",\n  \"password\": \"Test@1234\"\n}"
         },
         "url": {
-          "raw": "{{base_url}}/api/auth/login",
+          "raw": "https://job-application-portal-rxyr.onrender.com/api/auth/login",
           "host": [
-            "{{base_url}}"
+            "https://job-application-portal-rxyr.onrender.com"
           ],
           "path": [
             "api",
@@ -65,9 +65,9 @@
       "request": {
         "method": "GET",
         "url": {
-          "raw": "{{base_url}}/api/jobs",
+          "raw": "https://job-application-portal-rxyr.onrender.com/api/jobs",
           "host": [
-            "{{base_url}}"
+            "https://job-application-portal-rxyr.onrender.com"
           ],
           "path": [
             "api",
@@ -102,9 +102,9 @@
           ]
         },
         "url": {
-          "raw": "{{base_url}}/api/applications/apply",
+          "raw": "https://job-application-portal-rxyr.onrender.com/api/applications/apply",
           "host": [
-            "{{base_url}}"
+            "https://job-application-portal-rxyr.onrender.com"
           ],
           "path": [
             "api",
@@ -125,9 +125,9 @@
           }
         ],
         "url": {
-          "raw": "{{base_url}}/api/applications/my-applications",
+          "raw": "https://job-application-portal-rxyr.onrender.com/api/applications/my-applications",
           "host": [
-            "{{base_url}}"
+            "https://job-application-portal-rxyr.onrender.com"
           ],
           "path": [
             "api",
@@ -141,7 +141,7 @@
   "variable": [
     {
       "key": "base_url",
-      "value": "http://localhost:5000"
+      "value": "https://job-application-portal-rxyr.onrender.com"
     },
     {
       "key": "token",
