@@ -16,6 +16,7 @@ app.use("/uploads", express.static("./uploads"));
 app.use(errorhandler);
 
 // Routes
+api.use('/', (req,res)=>{res.send("Job Application Portal API Running")}
 app.use('/api/auth', authRoutes);
 app.use('/api/jobs', jobRoutes);
 app.use('/api/application', applicationRoutes);
